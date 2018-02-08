@@ -1,0 +1,141 @@
+body {
+  background: #252525;
+}
+
+/* TYPOGRAPHY */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#header-text {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.btn-mdf {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.btn-submit {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  color: #272727;
+}
+
+a, a:hover, a:active, a:focus {
+  color: #fff;
+}
+
+.accent {
+  color: #ea9f3d;
+}
+.copyright {
+  font-size: 16px;
+}
+
+/* BUTTONS & FORM*/
+.btn-accent {
+  background-color: #ea9f3d;
+}
+
+.btn-mdf {
+  width: 300px;
+  border-width: medium;
+  border-radius: 0;
+  padding: 1.1rem;
+}
+
+.btn-submit {
+  padding: 0.8rem;
+}
+
+.btn-outline {
+  border-color: #ea9f3d;
+  color: white;
+}
+
+.form-control{
+  width: 90%;
+  border-radius: 0;
+  margin: auto;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* HEADER */
+#header-img {
+  display: none;
+}
+
+@media (min-width: 768px){
+  #header-img {
+    display: block;
+    left: -150px;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+  }
+}
+
+/* FACTS SECTION */
+.section-facts {
+  background: #fff;
+  color: #252525;
+  padding: 60px 0;
+  max-width: 100%;
+}
+
+ /* SLIDER */
+ .carousel-indicators {
+   bottom: 0;
+ }
+
+.carousel-indicators .active {
+  max-width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  background-color: #fff;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  max-width: 10px;
+  width: 10px;
+  height: 10px;
+  margin: 1px 4px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
